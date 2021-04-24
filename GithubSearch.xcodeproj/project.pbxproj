@@ -15,6 +15,16 @@
 		32A7F4F52633AE4F00058AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A7F4F32633AE4F00058AAE /* LaunchScreen.storyboard */; };
 		32A7F5002633AE4F00058AAE /* GithubSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F4FF2633AE4F00058AAE /* GithubSearchTests.swift */; };
 		32A7F50B2633AE4F00058AAE /* GithubSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F50A2633AE4F00058AAE /* GithubSearchUITests.swift */; };
+		32A7F51C2633AF9000058AAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F51B2633AF9000058AAE /* User.swift */; };
+		32A7F5212633AFC800058AAE /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5202633AFC800058AAE /* Repository.swift */; };
+		32A7F5262633B0F800058AAE /* ExampleJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5252633B0F800058AAE /* ExampleJSON.swift */; };
+		32A7F52B2633B22A00058AAE /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F52A2633B22A00058AAE /* UserTests.swift */; };
+		32A7F5302633B39B00058AAE /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F52F2633B39B00058AAE /* RepositoryTests.swift */; };
+		32A7F5352633B53300058AAE /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5342633B53300058AAE /* SearchResponse.swift */; };
+		32A7F53D2633B7AD00058AAE /* SearchResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F53C2633B7AD00058AAE /* SearchResponseTests.swift */; };
+		32A7F5452633D7C900058AAE /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5442633D7C900058AAE /* GitHubClientError.swift */; };
+		32A7F54A2633D86900058AAE /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5492633D86900058AAE /* GitHubAPIError.swift */; };
+		32A7F54F2633DABE00058AAE /* GitHubAPIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		32A7F5062633AE4F00058AAE /* GithubSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A7F50A2633AE4F00058AAE /* GithubSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubSearchUITests.swift; sourceTree = "<group>"; };
 		32A7F50C2633AE4F00058AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A7F51B2633AF9000058AAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		32A7F5202633AFC800058AAE /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		32A7F5252633B0F800058AAE /* ExampleJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleJSON.swift; sourceTree = "<group>"; };
+		32A7F52A2633B22A00058AAE /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		32A7F52F2633B39B00058AAE /* RepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		32A7F5342633B53300058AAE /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		32A7F53C2633B7AD00058AAE /* SearchResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseTests.swift; sourceTree = "<group>"; };
+		32A7F5442633D7C900058AAE /* GitHubClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
+		32A7F5492633D86900058AAE /* GitHubAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
+		32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIErrorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +126,11 @@
 				32A7F4F12633AE4F00058AAE /* Assets.xcassets */,
 				32A7F4F32633AE4F00058AAE /* LaunchScreen.storyboard */,
 				32A7F4F62633AE4F00058AAE /* Info.plist */,
+				32A7F51B2633AF9000058AAE /* User.swift */,
+				32A7F5202633AFC800058AAE /* Repository.swift */,
+				32A7F5342633B53300058AAE /* SearchResponse.swift */,
+				32A7F5442633D7C900058AAE /* GitHubClientError.swift */,
+				32A7F5492633D86900058AAE /* GitHubAPIError.swift */,
 			);
 			path = GithubSearch;
 			sourceTree = "<group>";
@@ -115,6 +140,11 @@
 			children = (
 				32A7F4FF2633AE4F00058AAE /* GithubSearchTests.swift */,
 				32A7F5012633AE4F00058AAE /* Info.plist */,
+				32A7F5252633B0F800058AAE /* ExampleJSON.swift */,
+				32A7F52A2633B22A00058AAE /* UserTests.swift */,
+				32A7F52F2633B39B00058AAE /* RepositoryTests.swift */,
+				32A7F53C2633B7AD00058AAE /* SearchResponseTests.swift */,
+				32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */,
 			);
 			path = GithubSearchTests;
 			sourceTree = "<group>";
@@ -258,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A7F51C2633AF9000058AAE /* User.swift in Sources */,
 				32A7F4ED2633AE4B00058AAE /* ViewController.swift in Sources */,
+				32A7F5352633B53300058AAE /* SearchResponse.swift in Sources */,
+				32A7F5212633AFC800058AAE /* Repository.swift in Sources */,
 				32A7F4E92633AE4B00058AAE /* AppDelegate.swift in Sources */,
+				32A7F5452633D7C900058AAE /* GitHubClientError.swift in Sources */,
+				32A7F54A2633D86900058AAE /* GitHubAPIError.swift in Sources */,
 				32A7F4EB2633AE4B00058AAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A7F54F2633DABE00058AAE /* GitHubAPIErrorTests.swift in Sources */,
+				32A7F52B2633B22A00058AAE /* UserTests.swift in Sources */,
+				32A7F53D2633B7AD00058AAE /* SearchResponseTests.swift in Sources */,
+				32A7F5262633B0F800058AAE /* ExampleJSON.swift in Sources */,
 				32A7F5002633AE4F00058AAE /* GithubSearchTests.swift in Sources */,
+				32A7F5302633B39B00058AAE /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
