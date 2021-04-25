@@ -25,6 +25,12 @@
 		32A7F5452633D7C900058AAE /* GitHubClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5442633D7C900058AAE /* GitHubClientError.swift */; };
 		32A7F54A2633D86900058AAE /* GitHubAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5492633D86900058AAE /* GitHubAPIError.swift */; };
 		32A7F54F2633DABE00058AAE /* GitHubAPIErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */; };
+		32A7F5572633DE8100058AAE /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5562633DE8100058AAE /* GitHubRequest.swift */; };
+		32A7F55C2633DF1200058AAE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F55B2633DF1200058AAE /* HTTPMethod.swift */; };
+		32A7F5612633E10F00058AAE /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F5602633E10F00058AAE /* GitHubAPI.swift */; };
+		32A7F566263419B000058AAE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F565263419B000058AAE /* HTTPClient.swift */; };
+		32A7F56B2634335700058AAE /* StubHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F56A2634335700058AAE /* StubHTTPClient.swift */; };
+		32A7F570263434BC00058AAE /* GitHubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A7F56F263434BC00058AAE /* GitHubClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +75,12 @@
 		32A7F5442633D7C900058AAE /* GitHubClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientError.swift; sourceTree = "<group>"; };
 		32A7F5492633D86900058AAE /* GitHubAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIError.swift; sourceTree = "<group>"; };
 		32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIErrorTests.swift; sourceTree = "<group>"; };
+		32A7F5562633DE8100058AAE /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
+		32A7F55B2633DF1200058AAE /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		32A7F5602633E10F00058AAE /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		32A7F565263419B000058AAE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		32A7F56A2634335700058AAE /* StubHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubHTTPClient.swift; sourceTree = "<group>"; };
+		32A7F56F263434BC00058AAE /* GitHubClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +143,11 @@
 				32A7F5342633B53300058AAE /* SearchResponse.swift */,
 				32A7F5442633D7C900058AAE /* GitHubClientError.swift */,
 				32A7F5492633D86900058AAE /* GitHubAPIError.swift */,
+				32A7F5562633DE8100058AAE /* GitHubRequest.swift */,
+				32A7F55B2633DF1200058AAE /* HTTPMethod.swift */,
+				32A7F5602633E10F00058AAE /* GitHubAPI.swift */,
+				32A7F565263419B000058AAE /* HTTPClient.swift */,
+				32A7F56F263434BC00058AAE /* GitHubClient.swift */,
 			);
 			path = GithubSearch;
 			sourceTree = "<group>";
@@ -145,6 +162,7 @@
 				32A7F52F2633B39B00058AAE /* RepositoryTests.swift */,
 				32A7F53C2633B7AD00058AAE /* SearchResponseTests.swift */,
 				32A7F54E2633DABE00058AAE /* GitHubAPIErrorTests.swift */,
+				32A7F56A2634335700058AAE /* StubHTTPClient.swift */,
 			);
 			path = GithubSearchTests;
 			sourceTree = "<group>";
@@ -290,11 +308,16 @@
 			files = (
 				32A7F51C2633AF9000058AAE /* User.swift in Sources */,
 				32A7F4ED2633AE4B00058AAE /* ViewController.swift in Sources */,
+				32A7F566263419B000058AAE /* HTTPClient.swift in Sources */,
 				32A7F5352633B53300058AAE /* SearchResponse.swift in Sources */,
 				32A7F5212633AFC800058AAE /* Repository.swift in Sources */,
 				32A7F4E92633AE4B00058AAE /* AppDelegate.swift in Sources */,
+				32A7F570263434BC00058AAE /* GitHubClient.swift in Sources */,
 				32A7F5452633D7C900058AAE /* GitHubClientError.swift in Sources */,
 				32A7F54A2633D86900058AAE /* GitHubAPIError.swift in Sources */,
+				32A7F5572633DE8100058AAE /* GitHubRequest.swift in Sources */,
+				32A7F55C2633DF1200058AAE /* HTTPMethod.swift in Sources */,
+				32A7F5612633E10F00058AAE /* GitHubAPI.swift in Sources */,
 				32A7F4EB2633AE4B00058AAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +331,7 @@
 				32A7F53D2633B7AD00058AAE /* SearchResponseTests.swift in Sources */,
 				32A7F5262633B0F800058AAE /* ExampleJSON.swift in Sources */,
 				32A7F5002633AE4F00058AAE /* GithubSearchTests.swift in Sources */,
+				32A7F56B2634335700058AAE /* StubHTTPClient.swift in Sources */,
 				32A7F5302633B39B00058AAE /* RepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
